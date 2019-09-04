@@ -1,0 +1,27 @@
+Custom key mappings:
+#上下左右
+map w scrollUp
+map s scrollDown
+map a scrollLeft
+map d scrollRight
+
+#半页滚动
+map l scrollPageDown
+map h scrollPageUp
+
+#顶部/底部
+map qq scrollToTop
+map ee scrollToBottom
+
+#后退/前进
+map j goBack
+map k goForward
+
+常用：
+终极跳转链接大法-f
+跳转标签页-J/K
+关闭页面/恢复页面 - x/X
+终极搜索栏 - o
+搜索书签 - b
+刷新页面 - r
+页面搜索 - /
