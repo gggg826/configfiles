@@ -13,7 +13,8 @@ echo `pwd`
 
 #输入要设定的账户名和密码
 read -p "请输入要添加的姓名缩写: " name
-read -p "请输入要添加密码: " password
+# read -p "请输入要添加密码: " password
+password=`echo user$name |md5sum |cut -c1-8`
 
 #在authz文件的develop行尾添加要设定的用户名
 sed -i "/^develop/{s/$/,$name/}" ./authz
@@ -22,4 +23,4 @@ sed -i "/^develop/{s/$/,$name/}" ./authz
 sed -i "\$a\\$name = $password" ./passwd
 
 #打印出svn仓库地址和设定的账户名以及对应的密码
-echo -e "\033[32m svn仓库: svn://111.222.333.444/$dir_name; 账户:$name; 密码: $password \033[0m"
+echo -e "\033[32m svn仓库: svn://192.168.1.39/$dir_name; 账户:$name; 密码: $password \033[0m"
