@@ -14,6 +14,15 @@
 
 &emsp;
 
+# Nodejs Idea/Rider 调试设置
+1. Idea/Rider 中下载 nodejs 插件
+2. 新建 Configurations
+    
+    注意配置的路径
+    ![](https://gitee.com/TheNO5/ArticleSources/raw/master/2021-4-14/1618411008721-nodejs%E8%B0%83%E8%AF%95%E9%85%8D%E7%BD%AE.png)
+
+&emsp;
+
 # *  部署 Visual Studio 2015
 1. 安装 Visual Studio 2015 / 1步骤包中 vc_redist.x64.exe 猜测只与 node-protobuf 编译相关，如运行不报错，可不装
 
