@@ -64,7 +64,7 @@
 >   - innodb_file_per_table=1
 >   - innodb_file_format=Barracuda
 >
-> **2. 在创建表的语句后加入 ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=COMPRESSED;**
+> **2. 在创建表的语句后加入 `ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=COMPRESSED;` 所有的 Creat 都要加**
 >
 > 参照: https://blog.csdn.net/Jianshi_Lai/article/details/86615862
 >
