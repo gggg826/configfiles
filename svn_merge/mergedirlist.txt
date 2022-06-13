@@ -1,0 +1,6 @@
+AddressableAssetsData
+Addressables
+Art
+ArtTemp
+Resources
+Scenes
